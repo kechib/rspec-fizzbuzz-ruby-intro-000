@@ -1,17 +1,10 @@
 def fizzbuzz(number)
 if number % 3 && 5
   return "FizzBuzz"
+else if number % 3 == 0
+return "Fizz"
+  else if number % 5 == 0
+    return "Buzz"
+  
 end
  end
-
-def fizz(number)
-  if number is % 3 == 0
-    return "Fizz"
-  end
-end
-
-def buzz(number)
-  if number is % / 5 == 0
-    return "Buzz"
-  end
-end
