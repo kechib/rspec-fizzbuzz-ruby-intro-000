@@ -7,6 +7,5 @@ return "Fizz"
 
   else if number % 5 == 0
     return "Buzz"
-
 end
  end
