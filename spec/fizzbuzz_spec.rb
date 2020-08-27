@@ -3,12 +3,12 @@ require_relative '../fizzbuzz.rb'
 
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
-    Fizz_3 = fizzbuzz(3)
+    fizz_3 = fizzbuzz(3)
 
-    expect(fizzbuzz_3).to eq("Fizz")
+    expect(fizz_3).to eq("Fizz")
   end
   it 'returns "Buzz" when the number is divisible by 5' do
-    Buzz_5 = fizzbuzz(5)
+    fizz_5 = fizzbuzz(5)
 
     expect(fizz_5).to eq("Buzz")
   end
