@@ -4,13 +4,13 @@ if number % 3 && 5
 end
  end
 
-def fizz(number)
+
   if number % 3
     return "Fizz"
   end
 end
 
-def buzz(number)
+
   if number % 5
     return "Buzz"
   else return "nil"
