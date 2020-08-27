@@ -1,18 +1,18 @@
 def fizzbuzz(number)
 if number % 3 && 5
-  puts "FizzBuzz"
+  return "FizzBuzz"
 end
  end
 
 def fizz(number)
   if number % 3
-    puts "Fizz"
+    return "Fizz"
   end
 end
 
 def buzz(number)
   if number % 5
-    puts "Buzz"
-  else puts "nil"
+    return "Buzz"
+  else return "nil"
   end
 end
